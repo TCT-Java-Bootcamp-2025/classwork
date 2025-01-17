@@ -8,9 +8,5 @@ public class Main {
         car.start();
         car.honk();
 
-//        Vehicle vehicle = new Car();
-//        vehicle.start();
-//        vehicle.honk();
-
     }
 }
