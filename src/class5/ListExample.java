@@ -16,6 +16,10 @@ public class ListExample {
         numbersToSort.add(9);
         numbersToSort.add(1);
 
+        List<Integer> numbers2 = Arrays.asList(8, 3, 9,1);
+        List<Integer> numbers3 = List.of(8, 3, 9,1);
+
+
         Collections.sort(students);
         System.out.println(students);
         numbersToSort.sort(Comparator.reverseOrder());
